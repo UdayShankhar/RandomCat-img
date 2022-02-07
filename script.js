@@ -1,3 +1,12 @@
+document.body.innerHTML=`<div class="results">
+        <div id="cat_result" class="result">
+        <p>Random Cat Placeholder</p>
+     </div>
+    </div>
+    <div class="buttons">
+    <button id="cat_btn" type="button" onclick="getData()" >Get Cat</button></div>`
+
+
 const btn1 = document.getElementById("cat_btn");
 const cat_result = document.getElementById("cat_result")
 
